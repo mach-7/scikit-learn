@@ -19,9 +19,9 @@ In general, a learning problem considers a set of n
 data and then tries to predict properties of unknown data. If each sample is
 more than a single number and, for instance, a multi-dimensional entry
 (aka `multivariate <http://en.wikipedia.org/wiki/Multivariate_random_variable>`_ 
-data), is it said to have several attributes or **features**.
+data), it is said to have several attributes or **features**.
 
-We can separate learning problems in a few large categories:
+We can group learning problems in a few large categories:
 
  * `supervised learning <http://en.wikipedia.org/wiki/Supervised_learning>`_, 
    in which the data comes with additional attributes that we want to predict 
@@ -65,7 +65,7 @@ We can separate learning problems in a few large categories:
     and applying them to new data. This is why a common practice in
     machine learning to evaluate an algorithm is to split the data
     at hand into two sets, one that we call the **training set** on which
-    we learn data properties and one that we call the **testing set**
+    we learn data properties and the other that we call the **testing set**
     on which we test these properties.
 
 .. _loading_example_dataset:
